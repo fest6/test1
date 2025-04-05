@@ -16,7 +16,6 @@ jobs:
   # You may pin to the exact commit or the version.
   # uses: creyD/prettier_action@31355f8eef017f8aeba2e0bc09d8502b13dbbad1
   uses: creyD/prettier_action@v4.3
-  on: [push, pull_request]
   with:
     # Commit message, will be ignored if used with same_commit
     commit_message: # optional, default is Prettified Code!
